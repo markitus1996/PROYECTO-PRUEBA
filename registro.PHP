@@ -12,7 +12,7 @@
 
 
 	//hacemos la consulta sobre el usuario
-	$query = "SELECT  email, contrasenya FROM usuarios WHERE email ='$email' AND contrasenya ='$contrasenya'";
+	$query = "SELECT  id  FROM usuarios WHERE  nombre ='$email' AND contrasenya ='$contrasenya'";
 	$result = mysqli_query($BBDD, $query);
 	//comprobamos que no de ningun error la consulta
 	if(!$result){
