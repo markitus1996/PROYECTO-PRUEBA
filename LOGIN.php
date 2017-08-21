@@ -1,5 +1,13 @@
+<?php
+  $server = "localhost";
+  $userdb = "root";
+  $passdb = "";
+  $database = "Proyecto";
 
-<!DOCTYPE HTML>
+  $conexion = new mysqli($server, $userdb, $passdb, $database);
+  $conexion->set_charset("utf8");
+?>
+
 <html manifest="" lang="es-ES">
 <head>
     <meta charset="UTF-8">
